@@ -1,5 +1,6 @@
 #!/bin/bash
 
+export NODE_ENV=production
 node index.js 1>/dev/null &
 pid=$!
 
