@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "autocannon": "^0.16.4",
+    "fastify": "^0.14.0",
+    "marko": "^4.2.2"
+  },
+  "main": "index.js",
+  "scripts": {
+    "bench-streaming": "./bench.sh streaming",
+    "bench-blocking": "./bench.sh blocking"
+  }
+}
